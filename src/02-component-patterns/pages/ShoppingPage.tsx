@@ -1,5 +1,5 @@
 import React from 'react'
-import ProductCard, { ProductButtons, ProductImage, ProductTitle } from '../components/ProductCard'
+import { ProductCard, ProductButtons, ProductImage, ProductTitle } from '../components/'
 
 const product = {
     id: '1',
@@ -14,11 +14,11 @@ const ShoppingPage = () => {
             <hr />
 
             <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
-                <ProductCard product={product}>
+                {/* <ProductCard product={product}>
                     <ProductCard.Image />
                     <ProductCard.Title title={ "" } />
                     <ProductCard.Buttons />
-                </ProductCard>
+                </ProductCard> */}
 
                 <ProductCard product={product}>
                     <ProductImage />
