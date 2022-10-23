@@ -14,9 +14,6 @@ export const ProductCard = ({ product, children }: ProductCardProps) => {
     return (
         <Provider value={{ counter, increaseBy, product }}>
             <div className={styles.productCard}>
-                {/* <ProductImage img={ product.img } />
-                <ProductTitle title={ product.title } />
-                <ProductButtons counter={ counter } increaseBy={ increaseBy }/> */}
                 { children }
             </div>
         </Provider>

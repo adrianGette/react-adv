@@ -14,11 +14,11 @@ const ShoppingPage = () => {
             <hr />
 
             <div style={{ display: 'flex', flexDirection: 'row', flexWrap: 'wrap' }}>
-                {/* <ProductCard product={product}>
+                <ProductCard product={product}>
                     <ProductCard.Image />
                     <ProductCard.Title title={ "" } />
                     <ProductCard.Buttons />
-                </ProductCard> */}
+                </ProductCard>
 
                 <ProductCard product={product}>
                     <ProductImage />
